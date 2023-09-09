@@ -8,11 +8,11 @@ const schema = yup.object({
 });
 const App = () => {
   return (
-    <div>
-      <Form onSubmit={({values})=> console.log(values)} yupSchema={schema} >
+    <div className='flex w-full h-screen justify-center items-center'>
+      <Form className='flex flex-col gap-3 items-start text-lg p-16 rounded-md border-2 border-solid border-primary text-primary' onSubmit={({values})=> console.log(values)} yupSchema={schema} >
         <Input label='Email' name='email' type='email' placeholder='example@.com' required/>
         <Input label='Password' name='password' type='password' placeholder='********' required/>
-        <button type='submit'>Submit</button>
+        <button type='submit' className='bg-primary rounded-md text-secondary px-4 mt-2'>Submit</button>
         {/* <Debug/> */}
       </Form>
     </div>
