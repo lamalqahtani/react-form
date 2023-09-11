@@ -12,7 +12,7 @@ const useDarkMode = () => {
   useEffect(()=>{
       window.document.documentElement.classList.remove(theme ==='light'? 'dark': 'light');
       window.document.documentElement.classList.add(theme);
-      localStorage.setItem('theme', theme)
+      localStorage.setItem('theme', theme);
   },[theme,setTheme])
   return [theme, setTheme];
 }
