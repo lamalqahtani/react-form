@@ -21,7 +21,9 @@ const LanguageSwitch = () => {
     
   return (
     <div>
-        <select onChange={(e)=>{
+        <select 
+            defaultValue={i18n.language}
+            onChange={(e)=>{
             let element = e.target as HTMLSelectElement;
             i18n.changeLanguage(element.value);
         }}>
