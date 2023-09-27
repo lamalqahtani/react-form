@@ -12,6 +12,7 @@
   "dependencies": {
     "@graywolfai/react-heroicons": "^2.0.1",
     "i18next": "^23.5.1",
+    "i18next-browser-languagedetector": "^7.1.0",
     "informed": "^4.51.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
