@@ -1,4 +1,3 @@
-import React from 'react'
 import { Debug, Form, Input } from 'informed'
 import * as yup from 'yup'
 import ModeSwitcher from './components/ModeSwitcher';

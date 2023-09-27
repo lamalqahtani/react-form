@@ -1,4 +1,3 @@
-import React, { InputHTMLAttributes, ReactHTMLElement } from 'react'
 import { useTranslation } from 'react-i18next'
 import { uselanguageDirection } from '../hooks/useLanguageDirection';
 
