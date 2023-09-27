@@ -1,5 +1,6 @@
 import React, { InputHTMLAttributes, ReactHTMLElement } from 'react'
 import { useTranslation } from 'react-i18next'
+import { uselanguageDirection } from '../hooks/useLanguageDirection';
 
 const LanguageSwitch = () => {
     const {i18n} = useTranslation();
@@ -14,6 +15,9 @@ const LanguageSwitch = () => {
             value: 'en',
         }
     ]
+
+    /* change the page direction based on language */
+    uselanguageDirection();
     
   return (
     <div>
