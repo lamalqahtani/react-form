@@ -16,15 +16,15 @@ i18n.use(initReactI18next)
                   password: 'Password',
                   submit: 'Submit'
                 }
-              },
-              ar: {
-                translation: {
-                  "login": 'تسجيل الدخول',
-                  "email": 'البريد الالكتروني',
-                  "password": 'كلمة المرور',
-                  submit: 'تسليم'
-                }
+            },
+            ar: {
+              translation: {
+                "login": 'تسجيل الدخول',
+                "email": 'البريد الالكتروني',
+                "password": 'كلمة المرور',
+                submit: 'تسليم'
               }
+            }
         }
 });
 
